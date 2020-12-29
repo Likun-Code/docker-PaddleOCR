@@ -1,5 +1,5 @@
 # Version: 1.0.0
-FROM hub.baidubce.com/paddlepaddle/paddle:latest-gpu-cuda9.0-cudnn7-dev
+FROM hub.baidubce.com/paddlepaddle/paddle:latest
 
 # PaddleOCR base on Python3.7
 RUN pip3.7 install --upgrade pip -i https://mirrors.aliyun.com/pypi/simple
