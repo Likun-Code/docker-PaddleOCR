@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  ppocr:
+    image: likun-code/ppocr
+    ports:
+      - 8866:8866
