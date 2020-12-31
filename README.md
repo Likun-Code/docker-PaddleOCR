@@ -17,7 +17,11 @@ docker-compose up -d
 
 ## 发送请求
 a. 计算待识别图片的Base64编码
+
 b. 发送服务请求
 ```
 curl -H "Content-Type:application/json" -X POST --data "{\"images\": [\"填入图片Base64编码(需要删除'data:image/jpg;base64,'）\"]}" http://localhost:8866/predict/ocr_system
 ```
+
+#### 参考文档
+> https://github.com/PaddlePaddle/PaddleOCR/blob/dygraph/deploy/docker/hubserving/README_cn.md
